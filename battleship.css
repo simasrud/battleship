@@ -1,0 +1,99 @@
+table {
+	border: 2px solid black;
+	border-collapse: collapse;
+	background: rgba(0,0,0,.7);
+	text-align: center;
+	margin-left: 100px;
+	padding: 20px;
+	border-spacing: 10px;
+}
+#board{
+	padding: 20px;
+}
+td {
+	height: 25px;
+	color: white;
+}
+th {
+	height: 25px;
+	color: red;
+}
+body {
+	background-image: url('background ship.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#row0{
+	color: red;
+	background: rgba(0,1,0,.5);
+}
+#column0{
+	color: red;
+	background: rgba(0,1,0,.5);
+}
+.title{
+	color: red;
+	text-decoration: overline underline;
+	font-size: 48px;
+	text-align: center;
+	font-family: 'Frijole', cursive;
+	padding: 7px;
+	width: 400px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+table tr th{
+	color: red;
+	font-family: 'Black Ops One', cursive;
+}
+
+table tr td{
+	color: white;
+
+}
+
+h1 + table {
+	border: 2px solid black;
+}
+a[href="https://en.wikipedia.org/wiki/Battleship_(game)"]{
+	background: rgba(0,0,0,0.5);
+	border: 2px solid black;
+	color: red;
+	text-decoration: underline;
+}
+
+span {
+	font-weight: bold;
+}
+
+p {
+	background: rgba(0,0,0,0.7);
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 20px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.pink {
+    background: pink;
+    border: 1px solid purple;
+}
+div {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#play {
+	width: 150px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background: red;
+	color: black;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
